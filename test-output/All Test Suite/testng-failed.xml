@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/singh/IdeaProjects/SampleFrame/src/test/java/TestCases(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.LoginTest">
+        <methods>
+          <include name="log_test_n1"/>
+          <include name="log_test_n"/>
+          <include name="log_test"/>
+          <include name="log_test_n2"/>
+        </methods>
+      </class> <!-- TestCases.LoginTest -->
+      <class name="TestCases.LoginTestlo">
+        <methods>
+          <include name="testAppUrl"/>
+          <include name="testhomepage"/>
+          <include name="testlogo"/>
+        </methods>
+      </class> <!-- TestCases.LoginTestlo -->
+      <class name="TestCases.PIM_img">
+        <methods>
+          <include name="test_up_img_de"/>
+          <include name="login_emp_img"/>
+          <include name="test_up_img"/>
+        </methods>
+      </class> <!-- TestCases.PIM_img -->
+      <class name="TestCases.ZoomInOutTest">
+        <methods>
+          <include name="testzoomin"/>
+          <include name="testzoomout"/>
+          <include name="login_emp_zoom"/>
+        </methods>
+      </class> <!-- TestCases.ZoomInOutTest -->
+      <class name="TestCases.PIM_Test">
+        <methods>
+          <include name="add_emp"/>
+          <include name="login_emp"/>
+          <include name="add_emp_wot_log"/>
+        </methods>
+      </class> <!-- TestCases.PIM_Test -->
+    </classes>
+  </test> <!-- C:/Users/singh/IdeaProjects/SampleFrame/src/test/java/TestCases(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

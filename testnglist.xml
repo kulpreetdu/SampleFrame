@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="smoke"/>
+            <include name="Regression"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="TestCases.ListenerTest"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/singh/IdeaProjects/SampleFrame/src/test/java/TestCases">
+        <parameter name="os" value="Windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="log_test_n"/>
+                    <include name="log_test_n1"/>
+                    <include name="log_test_n2"/>
+                    <include name="log_test"/>
+                </methods>
+            </class>
+            <!--
+            <class name="TestCases.LoginTestlo">
+                <methods>
+                    <include name="testlogo"/>
+                    <include name="testAppUrl"/>
+                    <include name="testhomepage"/>
+                </methods>
+            </class>
+            <class name="TestCases.PIM_Test">
+                <methods>
+                    <include name="login_emp"/>
+                    <include name="add_emp"/>
+                    <include name="add_emp_wot_log"/>
+                </methods>
+            </class>
+            <class name="TestCases.PIM_img">
+                <methods>
+                    <include name="login_emp_img"/>
+                    <include name="test_up_img"/>
+                    <include name="test_up_img_de"/>
+                </methods>
+            </class>
+            <class name="TestCases.ZoomInOutTest">
+                <methods>
+                    <include name="login_emp_zoom"/>
+                    <include name="testzoomout"/>
+                    <include name="testzoomin"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.Scrolltest">
+                <methods>
+                    <include name="login_emp_sc"/>
+                    <include name="testscdow"/>
+                    <include name="testscup"/>
+                </methods>
+            </class>
+            -->
+        </classes>
+    </test>
+</suite>
