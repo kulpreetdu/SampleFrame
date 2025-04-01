@@ -18,10 +18,14 @@
 
         <classes>
 
-            <class name="TestCases.LoginScreenTest">
+            <class name="TestCases.KeyBEnterTest">
 
             </class>
             <!--
+            <class name="TestCases.LoginScreenTest">
+
+            </class>
+
             <class name="TestCases.LoginTestRightC">
 
             </class>
