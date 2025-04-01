@@ -7,14 +7,25 @@
             <include name="Regression"/>
         </run>
     </groups>
+
     <listeners>
         <listener class-name="TestCases.ListenerTest"></listener>
     </listeners>
+
     <test verbose="2" preserve-order="true" name="C:/Users/singh/IdeaProjects/SampleFrame/src/test/java/TestCases">
         <parameter name="os" value="Windows"/>
         <parameter name="browser" value="chrome"/>
 
         <classes>
+
+            <class name="TestCases.LoginScreenTest">
+
+            </class>
+            <!--
+            <class name="TestCases.LoginTestRightC">
+
+            </class>
+
             <class name="TestCases.LoginTest">
                 <methods>
                     <include name="log_test_n"/>
@@ -23,7 +34,7 @@
                     <include name="log_test"/>
                 </methods>
             </class>
-            <!--
+
             <class name="TestCases.LoginTestlo">
                 <methods>
                     <include name="testlogo"/>
